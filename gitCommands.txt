@@ -38,6 +38,15 @@ $ git help log : opens manual for git log
 $ git reset #tag id of version: resets to a previous version
 
 $ git rebase - i --root : editor to merge reorganize or change commits
+	press :x then enter to exit this view
+
+$ git branch newBranchName : creates a new branch called newBranchName
+
+$ git branch : displays all branches
+
+$ git switch newBranchName: switches branch to newBranchName
+
+$ git 
 
 
 
