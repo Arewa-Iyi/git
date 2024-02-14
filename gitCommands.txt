@@ -46,8 +46,9 @@ $ git branch : displays all branches
 
 $ git switch newBranchName: switches branch to newBranchName
 
-$ git 
+$ git merge -m "merge description back to main" newBranchName : merges newBranchName to main
 
+$ git switch -c createNewBranch : creates and switches to createNewBranch
 
 
 
