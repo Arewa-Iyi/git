@@ -1,0 +1,44 @@
+$ git switch main : switch branch to main
+
+$ cd c:/users/arewa/git
+$ git init: initialize empty git repository
+
+$ git status: returns status of repository
+
+$ git add index.htm : commit index.htm file to be tracked
+
+$ git add . : commit all files in the repository
+
+$ git rm --cached index.htm: removes index.htm from tracking
+
+$ git commit -m "Commit Description" : command to commit staged/updated files
+
+$ git diff : command to show diffences in modified documents
+
+$ git restore --staged <file> : remove file from staging
+
+$ git commit -a -m "Commit Description" : skips staging step and commits change
+
+$ git add/rm "file name" : add or removes file from repository
+ 
+$ git restore "file name" " restores previously deleted file from repository
+
+$ git mv "oldFileName" "newFileName" " updates an old file name to a new name
+
+$ git commit -m "commit Description" --amend: amends previous commition 
+
+$ git log --oneline : displays previous commition
+
+$ git log - p : displays differences in detail
+
+$ q : exits view
+
+$ git help log : opens manual for git log
+
+$ git reset #tag id of version: resets to a previous version
+
+$ git rebase - i --root : editor to merge reorganize or change commits
+
+
+
+
